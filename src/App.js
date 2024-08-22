@@ -1,11 +1,20 @@
 // src/App.js
 import React from 'react';
+import Pricing from './components/Pricing';
+import FAQ from './components/FAQ';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="text-center p-10">
-      <h1 className="text-4xl font-bold text-blue-500">Welcome to My Tailwind + React App</h1>
-      <p className="mt-4 text-gray-700">Start building your app here!</p>
+    <div >
+      <div className=' bg-gradient-to-b from-green-50 to-green-100'>
+
+        <Navbar></Navbar>
+        <Pricing></Pricing>
+      </div>
+      <FAQ></FAQ>
+      <Footer></Footer>
     </div>
   );
 }
