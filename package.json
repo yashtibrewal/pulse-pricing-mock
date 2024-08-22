@@ -1,6 +1,7 @@
 {
-  "name": "pulse-mockups",
-  "version": "0.1.0",
+  "name": "pulse-website-mockup-practcie",
+  "version": "1.0.0",
+  "description": "Attempt to create a mockup for the website https://pulseapp.com/pricing",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -34,5 +35,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
   }
 }
