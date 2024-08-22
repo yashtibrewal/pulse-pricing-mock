@@ -10,7 +10,7 @@ export default function Navbar() {
                 <a className="hover:text-black-rich">Customer Stories</a>
                 <a className="text-black-rich">Pricing</a>
                 <a className="hover:text-black-rich">Blog</a>
-                <a className="hover:text-black-rich border-2 border-green-go px-3 py-1">Sign Up</a>
+                <a className="hover:text-black-rich hover:bg-lotion hover:scale-110 border-2 border-green-go px-3 py-1">Sign Up</a>
             </div>
         </nav>
     )
