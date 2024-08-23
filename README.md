@@ -4,8 +4,8 @@
 
 Tasks:
 1. [X] Mock Desktop View 
-2. [ ] Mock Tablet View 
-3. [ ] Mock Mobile View 
+2. [X] Mock Tablet View 
+3. [X] Mock Mobile View 
 
 ## Mockup Source
 
@@ -13,7 +13,7 @@ I have created the mockup for https://pulseapp.com/pricing website's pricing pag
 
 ### Technologies
 
-1. **React** (Used just to keep the code modularized)
+1. **React**
 2. **HTML**
 3. **Tailwind CSS**
 4. **Javascript**
