@@ -28,7 +28,7 @@ export default function Pricing() {
                     <div>
 
                         <div>Just need the Pulse Basics?</div>
-                        <div><a className="underline">Get them now</a> for $29 per month.</div>
+                        <div><a href="#"  className="underline">Get them now</a> for $29 per month.</div>
                     </div>
                 </div>
                 <div className=" border-2    border-green-go flex flex-col text-center space-y-5 items-center sm:w-full md:w-1/2 lg:w-1/3 bg-lotion border-1 rounded-t-lg">
@@ -40,31 +40,31 @@ export default function Pricing() {
                     <div className="text-2xl text-gray-500">
                         $59 per month
                     </div>
-                    <a className="hover:scale-110 w-fit py-3  font-extrabold text-xl px-10 bg-green-ufo">Sign-up Now</a>
+                    <a href="#"  className="hover:scale-110 w-fit py-3  font-extrabold text-xl px-10 bg-green-ufo">Sign-up Now</a>
                     <div className="flex flex-col p-5 text-sm tracking-tight space-y-5 text-gray-600 text-left">
                         <div className="tracking-wide font-bold text-sm uppercase text-center">You get pulse basic, plus:</div>
                         <div className='flex items-start'>
-                            <img className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
+                            <img alt="image"  className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
                             <div>
                                 Manage cash flow on a daily, weekly, monthly, or yearly basis
                             </div>
                         </div><div className='flex items-start'>
-                            <img className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
+                            <img alt="image"  className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
                             <div>
                                 Forecast growth with recurring income or expenses that scale automatically
                             </div>
                         </div><div className='flex items-start'>
-                            <img className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
+                            <img alt="image"  className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
                             <div>
                                 Works with any currency
                             </div>
                         </div><div className='flex items-start'>
-                            <img className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
+                            <img alt="image"  className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
                             <div>
                                 See Money In and Money Out, categorize transactions, and run helpful reports
                             </div>
                         </div><div className='flex items-start'>
-                            <img className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
+                            <img alt="image"  className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
                             <div>
                                 Toggle entries and accounts on and off to game out different scenarios
                             </div>
@@ -80,22 +80,22 @@ export default function Pricing() {
                     <div className="text-2xl text-gray-500">
                         $89 per month
                     </div>
-                    <a className="hover:scale-110 w-fit py-3 font-extrabold text-xl px-10 bg-green-ufo">Try Premium</a>
+                    <a href="#"  className="hover:scale-110 w-fit py-3 font-extrabold text-xl px-10 bg-green-ufo">Try Premium</a>
 
                     <div className="flex flex-col p-5 tracking-tight space-y-5 text-gray-600 text-left text-sm">
                         <div className="tracking-wide font-bold text-sm uppercase text-center">You get it all basic, plus:</div>
                         <div className='flex items-start'>
-                            <img className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
+                            <img alt="image"  className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
                             <div>
                                 Manage cash flow across unlimited financial accounts
                             </div>
                         </div><div className='flex items-start'>
-                            <img className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
+                            <img alt="image"  className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
                             <div>
                                 Convert to any currency for localized cash flow reporting and projections
                             </div>
                         </div><div className='flex items-start'>
-                            <img className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
+                            <img alt="image"  className="w-3 inline mx-1 pt-1" src="./tick.svg"></img>
                             <div>
                                 Attach invoices or contracts to your cash flow entries for accountability and auditing
                             </div>
@@ -107,7 +107,7 @@ export default function Pricing() {
             <div className="flex justify-center">
                 <div className="sm:w-full md:w-2/3 flex flex-col items-center text-center space-y-5">
                     <div>
-                        <img src="https://pulseapp.com/img/subvert-avatar.png" className="w-100"></img>
+                        <img alt="image"  src="https://pulseapp.com/img/subvert-avatar.png" className="w-100"></img>
                     </div>
                     <div className="text-2xl ">
                         “Pulse is worth every penny because it empowers business owners with critical financial insight and knowledge.”
