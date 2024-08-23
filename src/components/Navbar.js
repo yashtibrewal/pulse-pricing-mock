@@ -21,7 +21,16 @@ export default function Navbar({ handleNavbarClicked }) {
                         <li><a className="hover:text-black-rich">Customer Stories</a></li>
                         <li><a className="text-black-rich">Pricing</a></li>
                         <li><a className="hover:text-black-rich">Blog</a></li>
-                        <li><a className="hover:text-black-rich hover:bg-lotion hover:scale-110 border-2 border-green-go px-3 py-1">Sign Up</a></li>
+                        <li className="bg-green-go">
+                            <button
+                                className="transition-transform duration-300
+                                            bg-gradient-to-r from-green-50 to-green-50
+                                            hover:translate-x-1.5 hover:-translate-y-1.5
+                                            border-2 border-green-go
+                                            px-2 py-1">
+                                Sign Up
+                            </button>
+                        </li>
                     </ul>
                 </div>
                 <div onClick={navbarClicked}

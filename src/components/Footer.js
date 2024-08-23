@@ -6,11 +6,19 @@ export default function Footer() {
     return (
         <div className=" bg-black-rich lg:p-16 lg:px-40 md:p-8 p-4">
             <div className="flex flex-wrap justify-center p-5">
-                <div className="w-full md:w-1/2 flex flex-col items-center md:items-start space-y-5">
+                <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-around">
                     <img alt="image" src="https://pulseapp.com/img/pulse-logo.svg" aria-hidden="true" class="w-32 md:w-40" />
-                    <a className="hover:text-lotion hover:bg-gradient-to-l text-sm md:text-md lg:text-lg
-                            w-fit py-4 px-8  lg:py-4 lg:px-16 bg-gradient-to-r font-bold from-green-go to-green-ufo">
-                        Sign-up for a 30-Day Trial</a>
+                    <span className="bg-gray-500 inline-block w-fit ">
+                        <button className="
+                                transition-transform duration-300
+                                hover:translate-x-2 hover:-translate-y-2
+                                text-sm md:text-md lg:text-lg
+                                py-4 px-8 lg:py-4 lg:px-16
+                                bg-gradient-to-r font-bold from-green-go to-green-ufo">
+                            Sign-up for a 30-Day Trial
+                        </button>
+                    </span>
+
                 </div>
                 <div className="w-full md:w-1/2 text-sm md:text-md lg:text-lg ">
                     <div className="flex p-5 text-green-ufo space-x-5">
